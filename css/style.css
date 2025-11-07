@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #303035;
+}
+
+/* for larger screens */
+@media (min-width: 768px) {
+    body {
+        background-color: #cae0ff; 
+    }
+
+}
