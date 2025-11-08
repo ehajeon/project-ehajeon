@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Choosing a Main">
+    <meta name="author" content="Elina Jeon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Character Quiz</title>
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="off-screen-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Character Quiz</a></li>
+                <li><a href="buildparty.html">Party Builder</a></li>
+                <li><a href="progression.html">Progression Guide</a></li>
+            </ul>
+        </div>
+        
+        <nav>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="right-items">
+                <button>login</button>
+                <button id="mode">light</button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Banner image with overlay -->
+    <main>
+        <div class="quiz-intro">
+            <div class="container">
+                <div class="overlay">
+                    <h2>Not sure who to main?</h2>
+                    <p>Take the quiz here!</p>
+                    <button>START</button>
+                </div>
+                <img src="img/KEBanner.png" class="banner">
+            </div>
+        </div>
+
+        <h2>... Or, flip through the provided character profiles below!</h2>
+
+        <div class="chars">
+            <!-- character icons (click on base icon, expand into 4 options which are always displayed on the left of character overview)-->
+             <img src="img/icons/Elsword.png">
+             <img src="img/icons/Aisha.png">
+             <img src="img/icons/Rena.png">
+             <img src="img/icons/Raven.png">
+             <img src="img/icons/Eve.png">
+             <img src="img/icons/Chung.png">
+             <img src="img/icons/Ara.png">
+             <img src="img/icons/Elesis.png">
+             <img src="img/icons/Add.png">
+             <img src="img/icons/Luciel.png">
+             <img src="img/icons/Rose.png">
+             <img src="img/icons/Ain.png">
+             <img src="img/icons/Laby.png">
+             <img src="img/icons/Noah.png">
+             <img src="img/icons/Lithia.png">
+        </div>
+
+        <h2>↓</h2>
+
+        <div class="overview">
+            <!-- character overview-->
+             <div class="paths">
+                <ul>
+                <!-- sidebar on right showing other paths-->
+                 <li><img src="img/icons/KE.png"></li>
+                 <li><img src="img/icons/RM.png"></li>
+                 <li><img src="img/icons/IM.png"></li>
+                 <li><img src="img/icons/GN.png"></li>
+                </ul>
+             </div>
+
+             <div>
+                <img src="img/portraits/01-ELS/KE.png" class="portrait">
+             </div>
+
+             <div class="char-info">
+                <!-- underneath on mobile, to the right on larger screens?-->
+                <h3>Knight Emperor</h3>
+                <h4>Role: Physical DPS</h4>
+                <p>Character description</p>
+                <p>Skill rec</p>
+             </div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script> 
+</body>
+</html>
