@@ -8,7 +8,7 @@
 
     <title>Party Builder</title>
 
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/icons/favicon.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -41,37 +41,74 @@
     <main>
         <h1>Party Builder</h1>
 
-        <div class="dropdown">
-            <button>Select Raid</button>
-            <div class="raid">
-                <a href="">Rosso</a>
-                <a href="">Berthe</a>
-                <a href="">Ran</a>
-                <a href="">Orchestra</a>
+        <div class="raid-select">
+            <div class="dropdown">
+                <button>Select Raid</button>
+                <div class="raid">
+                    <a href="">Rosso</a>
+                    <a href="">Berthe</a>
+                    <a href="">Ran</a>
+                    <a href="">Orchestra Hall</a>
+                </div>
             </div>
         </div>
 
         <!-- party and buffs container -->
-        <div>
-            <!-- party container (maybe should use images)-->
-            <div>
-                <!-- individual party slots -->
-                <div class="slot">
-                </div>
+        <div class="party-view">
+            <div class="char-slots">
+                <ul>
+                    <li class="slot"></li>
+                    <li class="slot"></li>
+                    <li class="slot"></li>
+                    <li class="slot"></li>
+                    <li class="slot"></li>
+                    <li class="slot"></li>
+                </ul>
             </div>
 
-            <!-- Buff/debuff container to the right, just like synergy in ESPC -->
-             <div>
-                <!-- Individual buff/debuff; have prereqs for healer and freezer etc -->
-                 <div>
-
-                 </div>
-             </div>
+            <div class="buffs">
+                <ul>
+                    <li>buff 1</li>
+                    <li>buff 2</li>
+                    <li>buff 3</li>
+                </ul>
+            </div>
         </div>
 
-        <div>
             <!-- Icons of all chars (think of el search party collection) with flexbox so that it adapts with screen; maybe split by dps syndps support healer rows (phys/mag columns)-->
              <!-- Raise certain flags for certain characters who are resource-dependent -->
+            <div class="espc">
+                <!-- character icons (click on base icon, expand into 4 options which are always displayed on the left of character overview)-->
+                <img src="img/icons/KE.png"><img src="img/icons/RM.png"><img src="img/icons/IM.png"><img src="img/icons/GN.png">
+
+                <img src="img/icons/AES.png"><img src="img/icons/OZ.png"><img src="img/icons/MTM.png"><img src="img/icons/LA.png">
+
+                <img src="img/icons/AN.png"><img src="img/icons/DAB.png"><img src="img/icons/TW.png"><img src="img/icons/PR.png">
+
+                <img src="img/icons/FB.png"><img src="img/icons/RH.png"><img src="img/icons/NI.png"><img src="img/icons/RV.png">
+
+                <img src="img/icons/CU.png"><img src="img/icons/CES.png"><img src="img/icons/CS.png"><img src="img/icons/CA.png">
+
+                <img src="img/icons/CC.png"><img src="img/icons/FP.png"><img src="img/icons/CENT.png"><img src="img/icons/DA.png">
+
+                <img src="img/icons/APS.png"><img src="img/icons/DEVI.png"><img src="img/icons/SH.png"><img src="img/icons/SU.png">
+
+                <img src="img/icons/ES.png"><img src="img/icons/FL.png"><img src="img/icons/BQ.png"><img src="img/icons/ADR.png">
+
+                <img src="img/icons/DBR.png"><img src="img/icons/DOM.png"><img src="img/icons/MP.png"><img src="img/icons/OM.png">
+
+                <img src="img/icons/CATA.png"><img src="img/icons/INNO.png"><img src="img/icons/DIA.png"><img src="img/icons/DEM.png">
+
+                <img src="img/icons/TB.png"><img src="img/icons/BLM.png"><img src="img/icons/MN.png"><img src="img/icons/PO.png">
+
+                <img src="img/icons/RI.png"><img src="img/icons/BL.png"><img src="img/icons/HR.png"><img src="img/icons/OP.png">
+
+                <img src="img/icons/ETW.png"><img src="img/icons/RAS.png"><img src="img/icons/NL.png"><img src="img/icons/TP.png">
+
+                <img src="img/icons/LIB.png"><img src="img/icons/CEL.png"><img src="img/icons/NP.png"><img src="img/icons/MO.png">
+
+                <img src="img/icons/GB.png"><img src="img/icons/AV.png"><img src="img/icons/AC.png"><img src="img/icons/MC.png">
+            </div>
         </div>
     </main>
 
